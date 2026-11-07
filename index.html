@@ -4,20 +4,28 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="theme-color" content="#4CAF50">
-  <meta name="description" content="Parentpeak — die App für Eltern. Events in deiner Nähe, Verschenkmarkt, KI-Beratung, Familien-Community, Kalender und mehr. Kostenlos starten.">
+  <meta name="description" content="Parentpeak — die App für Eltern. Events in deiner Nähe, Verschenkmarkt, KI-Beratung, Familien-Community, Kalender und mehr. Kostenlos starten." data-i18n-content="meta_description">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="de_DE">
-  <meta property="og:title" content="Parentpeak — Nicht perfekt sein müssen. Einfach da sein.">
-  <meta property="og:description" content="Events in deiner Nähe, Verschenkmarkt, KI-Beratung, Familien-Community, Kalender und mehr. Kostenlos starten.">
+  <meta property="og:title" content="Parentpeak — Nicht perfekt sein müssen. Einfach da sein." data-i18n-content="meta_title">
+  <meta property="og:description" content="Events in deiner Nähe, Verschenkmarkt, KI-Beratung, Familien-Community, Kalender und mehr. Kostenlos starten." data-i18n-content="meta_description">
   <meta property="og:url" content="https://parentpeak.com/">
   <meta property="og:image" content="https://parentpeak.com/assets/og-image.png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Parentpeak — Nicht perfekt sein müssen. Einfach da sein.">
-  <meta name="twitter:description" content="Die App für Eltern. Events, Verschenkmarkt, KI-Beratung, Familien-Community, Kalender. Kostenlos starten.">
+  <meta name="twitter:title" content="Parentpeak — Nicht perfekt sein müssen. Einfach da sein." data-i18n-content="meta_title">
+  <meta name="twitter:description" content="Die App für Eltern. Events, Verschenkmarkt, KI-Beratung, Familien-Community, Kalender. Kostenlos starten." data-i18n-content="meta_twitter_description">
   <meta name="twitter:image" content="https://parentpeak.com/assets/og-image.png">
   <link rel="canonical" href="https://parentpeak.com/">
+  <link rel="alternate" hreflang="de" href="https://parentpeak.com/?lang=de">
+  <link rel="alternate" hreflang="en" href="https://parentpeak.com/?lang=en">
+  <link rel="alternate" hreflang="tr" href="https://parentpeak.com/?lang=tr">
+  <link rel="alternate" hreflang="ku" href="https://parentpeak.com/?lang=ku">
+  <link rel="alternate" hreflang="fr" href="https://parentpeak.com/?lang=fr">
+  <link rel="alternate" hreflang="es" href="https://parentpeak.com/?lang=es">
+  <link rel="alternate" hreflang="it" href="https://parentpeak.com/?lang=it">
+  <link rel="alternate" hreflang="ar" href="https://parentpeak.com/?lang=ar">
   <link rel="icon" href="assets/app-icon.png?v=4">
   <link rel="apple-touch-icon" href="assets/app-icon.png?v=4">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -25,7 +33,7 @@
   <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" as="style">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
-  <title>Parentpeak — Nicht perfekt sein müssen. Einfach da sein.</title>
+  <title data-i18n="meta_title">Parentpeak — Nicht perfekt sein müssen. Einfach da sein.</title>
 
   <!-- Structured Data: SoftwareApplication -->
   <script type="application/ld+json">
@@ -48,7 +56,7 @@
       "name": "Fatih Bucak"
     },
     "datePublished": "2026-01-01",
-    "inLanguage": ["de", "en", "tr", "ku"],
+    "inLanguage": ["de", "en", "tr", "ku", "fr", "es", "it", "ar"],
     "screenshot": "https://parentpeak.com/assets/app-home.png"
   }
   </script>
@@ -74,53 +82,79 @@
 </head>
 <body>
   <!-- Skip-Link for Accessibility -->
-  <a href="#main-content" class="skip-link">Zum Inhalt springen</a>
+  <a href="#main-content" class="skip-link" data-i18n="skip_link">Zum Inhalt springen</a>
 
   <!-- Noscript Fallback -->
   <noscript>
     <div class="noscript-banner">
-      Diese Seite funktioniert am besten mit aktiviertem JavaScript. Alle Inhalte sind aber auch ohne JS sichtbar.
+      <span data-i18n="noscript_message">Diese Seite funktioniert am besten mit aktiviertem JavaScript. Alle Inhalte sind aber auch ohne JS sichtbar.</span>
     </div>
   </noscript>
 
   <!-- Navigation -->
   <header class="nav" role="banner">
     <div class="nav-inner">
-      <a href="#" class="nav-logo" aria-label="Parentpeak — Startseite">
+      <a href="#" class="nav-logo" aria-label="Parentpeak — Startseite" data-i18n-aria-label="logo_aria">
         <div class="logo-icon">
           <img src="assets/app-icon.png" alt="" width="40" height="40" aria-hidden="true">
         </div>
         <span>Parentpeak</span>
       </a>
-      <nav class="nav-links" aria-label="Hauptnavigation">
-        <a href="#features">Features</a>
-        <a href="#testimonials">Erlebnisse</a>
-        <a href="#philosophie">Werte</a>
-        <a href="#pricing">Preise</a>
-        <a href="#installieren">Beta-Tester</a>
+      <nav class="nav-links" aria-label="Hauptnavigation" data-i18n-aria-label="nav_aria">
+        <a href="#features" data-i18n="nav_features">Features</a>
+        <a href="#testimonials" data-i18n="nav_testimonials">Erlebnisse</a>
+        <a href="#philosophie" data-i18n="nav_philosophy">Werte</a>
+        <a href="#pricing" data-i18n="nav_pricing">Preise</a>
+        <a href="#installieren" data-i18n="nav_beta">Beta-Tester</a>
       </nav>
       <div class="nav-actions">
         <a href="#installieren" class="nav-cta">
           <span class="cta-icon" aria-hidden="true">🚀</span>
-          <span>Beta-Tester werden</span>
+          <span data-i18n="cta_beta">Beta-Tester werden</span>
         </a>
+        <label class="language-picker">
+          <span class="visually-hidden" data-i18n="language_label">Sprache auswählen</span>
+          <select class="language-select" aria-label="Sprache auswählen" data-i18n-aria-label="language_label">
+            <option value="de">Deutsch</option>
+            <option value="en">English</option>
+            <option value="tr">Türkçe</option>
+            <option value="ku">Kurdî</option>
+            <option value="fr">Français</option>
+            <option value="es">Español</option>
+            <option value="it">Italiano</option>
+            <option value="ar">العربية</option>
+          </select>
+        </label>
       </div>
-      <button class="nav-toggle" aria-label="Menü öffnen" aria-expanded="false" aria-controls="mobile-menu">
+      <button class="nav-toggle" aria-label="Menü öffnen" data-i18n-aria-label="menu_open" aria-expanded="false" aria-controls="mobile-menu">
         <span></span><span></span><span></span>
       </button>
     </div>
   </header>
 
   <!-- Mobile Menu -->
-  <div class="mobile-menu" id="mobile-menu" role="navigation" aria-label="Mobile Navigation">
-    <a href="#features">Features</a>
-    <a href="#testimonials">Erlebnisse</a>
-    <a href="#philosophie">Werte</a>
-    <a href="#pricing">Preise</a>
+  <div class="mobile-menu" id="mobile-menu" role="navigation" aria-label="Mobile Navigation" data-i18n-aria-label="mobile_nav_aria">
+    <a href="#features" data-i18n="nav_features">Features</a>
+    <a href="#testimonials" data-i18n="nav_testimonials">Erlebnisse</a>
+    <a href="#philosophie" data-i18n="nav_philosophy">Werte</a>
+    <a href="#pricing" data-i18n="nav_pricing">Preise</a>
     <a href="#installieren" class="button button-primary">
       <span aria-hidden="true">🚀</span>
-      <span>Beta-Tester werden</span>
+      <span data-i18n="cta_beta">Beta-Tester werden</span>
     </a>
+    <label class="language-picker">
+      <span class="visually-hidden" data-i18n="language_label">Sprache auswählen</span>
+      <select class="language-select" aria-label="Sprache auswählen" data-i18n-aria-label="language_label">
+        <option value="de">Deutsch</option>
+        <option value="en">English</option>
+        <option value="tr">Türkçe</option>
+        <option value="ku">Kurdî</option>
+        <option value="fr">Français</option>
+        <option value="es">Español</option>
+        <option value="it">Italiano</option>
+        <option value="ar">العربية</option>
+      </select>
+    </label>
   </div>
 
   <!-- Main Content -->
@@ -131,23 +165,23 @@
     <div class="hero-bg" aria-hidden="true"></div>
     <div class="container hero-content">
       <div class="hero-text">
-        <p class="hero-badge">Bald im App Store &amp; auf Google Play &middot; Für Eltern weltweit</p>
-        <h1 id="hero-heading">Nicht perfekt sein müssen.<br>Einfach da sein.</h1>
-        <p class="hero-sub">Die App für Eltern die alles geben — und selbst Halt brauchen. Events in deiner Nähe, Verschenkmarkt, KI-Beratung, Kalender, Familien-Community. Alles an einem Ort.</p>
+        <p class="hero-badge" data-i18n="hero_badge">Bald im App Store &amp; auf Google Play &middot; Für Eltern weltweit</p>
+        <h1 id="hero-heading" data-i18n="hero_title">Nicht perfekt sein müssen.<br>Einfach da sein.</h1>
+        <p class="hero-sub" data-i18n="hero_sub">Die App für Eltern die alles geben — und selbst Halt brauchen. Events in deiner Nähe, Verschenkmarkt, KI-Beratung, Kalender, Familien-Community. Alles an einem Ort.</p>
         <div class="hero-buttons">
-          <a href="#installieren" class="button button-primary">Jetzt Beta-Tester werden</a>
-          <a href="#features" class="button button-ghost">Entdecken ↓</a>
+          <a href="#installieren" class="button button-primary" data-i18n="hero_cta">Jetzt Beta-Tester werden</a>
+          <a href="#features" class="button button-ghost" data-i18n="hero_discover">Entdecken ↓</a>
         </div>
-        <div class="hero-trust" aria-label="Vertrauens-Merkmale">
-          <span>✅ Basis dauerhaft kostenlos</span>
-          <span>✅ Datenschutz im Fokus</span>
-          <span>✅ 8 Sprachen · weitere folgen</span>
+        <div class="hero-trust" aria-label="Vertrauens-Merkmale" data-i18n-aria-label="hero_trust_aria">
+          <span data-i18n="hero_trust_free">✅ Basis dauerhaft kostenlos</span>
+          <span data-i18n="hero_trust_privacy">✅ Datenschutz im Fokus</span>
+          <span data-i18n="hero_trust_languages">✅ 8 Sprachen · weitere folgen</span>
         </div>
       </div>
       <div class="hero-visual">
         <div class="phone-mockup" aria-hidden="true">
           <div class="phone-notch"></div>
-          <img src="assets/app-home.png" alt="Parentpeak App Home Screen" loading="eager" width="256" height="512">
+          <img src="assets/app-home.png" alt="Parentpeak App Home Screen" data-i18n-alt="image_app_alt" loading="eager" width="256" height="512">
         </div>
       </div>
     </div>
@@ -156,59 +190,59 @@
   <!-- Features -->
   <section id="features" class="features" aria-labelledby="features-heading">
     <div class="container">
-      <p class="section-eyebrow">Was Parentpeak kann</p>
-      <h2 class="section-title" id="features-heading">Dein Familienalltag. Eine App.</h2>
-      <p class="section-sub">Kein Feature-Dschungel. Nur das, was Eltern wirklich brauchen.</p>
+      <p class="section-eyebrow" data-i18n="features_eyebrow">Was Parentpeak kann</p>
+      <h2 class="section-title" id="features-heading" data-i18n="features_title">Dein Familienalltag. Eine App.</h2>
+      <p class="section-sub" data-i18n="features_sub">Kein Feature-Dschungel. Nur das, was Eltern wirklich brauchen.</p>
       <div class="features-grid" role="list">
         <div class="feature-card feature-card--highlight" data-anim role="listitem">
           <div class="feature-icon" aria-hidden="true">🎉</div>
-          <h3>Events & Aktivitäten</h3>
-          <p>Echte Familien-Events in deiner Nähe — KI-gesteuert, standortbasiert, mit Entfernungsanzeige. Theater, Kurse, Spielplatz-Treffs.</p>
+          <h3 data-i18n="feature_events_title">Events &amp; Aktivitäten</h3>
+          <p data-i18n="feature_events_desc">Echte Familien-Events in deiner Nähe — KI-gesteuert, standortbasiert, mit Entfernungsanzeige. Theater, Kurse, Spielplatz-Treffs.</p>
         </div>
         <div class="feature-card feature-card--highlight" data-anim role="listitem">
           <div class="feature-icon" aria-hidden="true">🎁</div>
-          <h3>Verschenkmarkt</h3>
-          <p>Kindersachen verschenken statt wegwerfen. Solidarisch, lokal, mit KI-Bilderkennung. Eltern helfen Eltern.</p>
+          <h3 data-i18n="feature_giveaway_title">Verschenkmarkt</h3>
+          <p data-i18n="feature_giveaway_desc">Kindersachen verschenken statt wegwerfen. Solidarisch, lokal, mit KI-Bilderkennung. Eltern helfen Eltern.</p>
         </div>
         <div class="feature-card" data-anim role="listitem">
           <div class="feature-icon" aria-hidden="true">🤖</div>
-          <h3>KI-Elternberatung</h3>
-          <p>Integrativer pädagogischer Ansatz: Hüther, GfK, Montessori, Reggio, Freinet, Fröbel und mehr.</p>
+          <h3 data-i18n="feature_advice_title">KI-Elternberatung</h3>
+          <p data-i18n="feature_advice_desc">Integrativer pädagogischer Ansatz: Hüther, GfK, Montessori, Reggio, Freinet, Fröbel und mehr.</p>
         </div>
         <div class="feature-card feature-card--highlight" data-anim role="listitem">
           <div class="feature-icon" aria-hidden="true">🌱</div>
-          <h3>Impulse & Entwicklung</h3>
-          <p>Tägliche Eltern-Impulse, Entwicklungs-Check für jedes Alter, Experten-Bibliothek mit Kathy Weber, Hüther & Co.</p>
+          <h3 data-i18n="feature_growth_title">Impulse &amp; Entwicklung</h3>
+          <p data-i18n="feature_growth_desc">Tägliche Eltern-Impulse, Entwicklungs-Check für jedes Alter, Experten-Bibliothek mit Kathy Weber, Hüther &amp; Co.</p>
         </div>
         <div class="feature-card" data-anim role="listitem">
           <div class="feature-icon" aria-hidden="true">🌙</div>
-          <h3>Ruhe & Rituale</h3>
-          <p>Sanfte Abendrituale, ein ruhiger Timer, eine Gute-Nacht-Geschichte und der Wochenrückblick — Momente zum Durchatmen.</p>
+          <h3 data-i18n="feature_rituals_title">Ruhe &amp; Rituale</h3>
+          <p data-i18n="feature_rituals_desc">Sanfte Abendrituale, ein ruhiger Timer, eine Gute-Nacht-Geschichte und der Wochenrückblick — Momente zum Durchatmen.</p>
         </div>
         <div class="feature-card" data-anim role="listitem">
           <div class="feature-icon" aria-hidden="true">📅</div>
-          <h3>Familienkalender</h3>
-          <p>Termine, Feiertage, Schulferien — alles auf einen Blick. Mit Smart-Erinnerungen.</p>
+          <h3 data-i18n="feature_calendar_title">Familienkalender</h3>
+          <p data-i18n="feature_calendar_desc">Termine, Feiertage, Schulferien — alles auf einen Blick. Mit Smart-Erinnerungen.</p>
         </div>
         <div class="feature-card" data-anim role="listitem">
           <div class="feature-icon" aria-hidden="true">🍳</div>
-          <h3>Familien-Küche</h3>
-          <p>Altersgerechte Rezepte per 1-Tap generiert. Mit Einkaufsliste und Kinder-Hits.</p>
+          <h3 data-i18n="feature_kitchen_title">Familien-Küche</h3>
+          <p data-i18n="feature_kitchen_desc">Altersgerechte Rezepte per 1-Tap generiert. Mit Einkaufsliste und Kinder-Hits.</p>
         </div>
         <div class="feature-card feature-card--highlight" data-anim role="listitem">
           <div class="feature-icon" aria-hidden="true">💞</div>
-          <h3>Familien-Community</h3>
-          <p>Familien in deiner Nähe entdecken, Momente teilen und dich direkt im Chat austauschen. Verbindung statt Vereinzelung.</p>
+          <h3 data-i18n="feature_community_title">Familien-Community</h3>
+          <p data-i18n="feature_community_desc">Familien in deiner Nähe entdecken, Momente teilen und dich direkt im Chat austauschen. Verbindung statt Vereinzelung.</p>
         </div>
         <div class="feature-card" data-anim role="listitem">
           <div class="feature-icon" aria-hidden="true">💰</div>
-          <h3>Familien-Geld</h3>
-          <p>Kindergeld, Wohngeld, BuT — welche Leistungen stehen euch zu? Dein Wegweiser.</p>
+          <h3 data-i18n="feature_benefits_title">Familien-Geld</h3>
+          <p data-i18n="feature_benefits_desc">Kindergeld, Wohngeld, BuT — welche Leistungen stehen euch zu? Dein Wegweiser.</p>
         </div>
         <div class="feature-card" data-anim role="listitem">
           <div class="feature-icon" aria-hidden="true">📋</div>
-          <h3>Familien-Zentrale</h3>
-          <p>Einkaufsliste, To-do, Kind-Dossier. Organisation ohne Stress — in 3 Sekunden.</p>
+          <h3 data-i18n="feature_hub_title">Familien-Zentrale</h3>
+          <p data-i18n="feature_hub_desc">Einkaufsliste, To-do, Kind-Dossier. Organisation ohne Stress — in 3 Sekunden.</p>
         </div>
       </div>
     </div>
@@ -217,35 +251,35 @@
   <!-- Alltag Section -->
   <section class="alltag" aria-labelledby="alltag-heading">
     <div class="container">
-      <p class="section-eyebrow">Parentpeak im echten Leben</p>
-      <h2 class="section-title" id="alltag-heading">Hilfe, wenn Familie gleichzeitig passiert.</h2>
+      <p class="section-eyebrow" data-i18n="day_eyebrow">Parentpeak im echten Leben</p>
+      <h2 class="section-title" id="alltag-heading" data-i18n="day_title">Hilfe, wenn Familie gleichzeitig passiert.</h2>
       <div class="alltag-timeline" role="list">
         <div class="alltag-item" data-anim role="listitem">
           <div class="alltag-time">07:15</div>
           <div class="alltag-content">
-            <h3>Der Morgen ist voll.</h3>
-            <p>Kalender zeigt wer wohin muss. Einkaufsliste ist schon fertig. Pack-Reminder erinnert an die Schwimmsachen.</p>
+            <h3 data-i18n="day_morning_title">Der Morgen ist voll.</h3>
+            <p data-i18n="day_morning_desc">Kalender zeigt wer wohin muss. Einkaufsliste ist schon fertig. Pack-Reminder erinnert an die Schwimmsachen.</p>
           </div>
         </div>
         <div class="alltag-item" data-anim role="listitem">
           <div class="alltag-time">15:30</div>
           <div class="alltag-content">
-            <h3>"Mama, warum darf ich das nicht?"</h3>
-            <p>KI-Chat gibt dir in 10 Sekunden einen pädagogisch fundierten Satz den du so sagen kannst. Ohne Googlen, ohne schlechtes Gewissen.</p>
+            <h3 data-i18n="day_afternoon_title">"Mama, warum darf ich das nicht?"</h3>
+            <p data-i18n="day_afternoon_desc">KI-Chat gibt dir in 10 Sekunden einen pädagogisch fundierten Satz den du so sagen kannst. Ohne Googlen, ohne schlechtes Gewissen.</p>
           </div>
         </div>
         <div class="alltag-item" data-anim role="listitem">
           <div class="alltag-time">18:00</div>
           <div class="alltag-content">
-            <h3>"Was kochen wir?"</h3>
-            <p>1 Tap → ein Rezept das dein 3-Jähriger isst. Mit Zutaten die du schon hast. In 25 Minuten fertig.</p>
+            <h3 data-i18n="day_evening_title">"Was kochen wir?"</h3>
+            <p data-i18n="day_evening_desc">1 Tap → ein Rezept das dein 3-Jähriger isst. Mit Zutaten die du schon hast. In 25 Minuten fertig.</p>
           </div>
         </div>
         <div class="alltag-item" data-anim role="listitem">
           <div class="alltag-time">21:00</div>
           <div class="alltag-content">
-            <h3>Kind schläft. Du atmest aus.</h3>
-            <p>Wochenrückblick: Wie war deine Woche? Was lief gut? Die KI gibt dir eine warme, ehrliche Rückmeldung.</p>
+            <h3 data-i18n="day_night_title">Kind schläft. Du atmest aus.</h3>
+            <p data-i18n="day_night_desc">Wochenrückblick: Wie war deine Woche? Was lief gut? Die KI gibt dir eine warme, ehrliche Rückmeldung.</p>
           </div>
         </div>
       </div>
@@ -256,83 +290,83 @@
   <section id="philosophie" class="philosophie" aria-labelledby="philosophie-heading">
     <div class="container philosophie-inner">
       <div class="philosophie-text">
-        <p class="section-eyebrow">Unsere Überzeugung</p>
-        <h2 id="philosophie-heading">Kinder kommen nicht falsch auf die Welt. Und Eltern auch nicht.</h2>
-        <p>Wir glauben: Jedes Kind trägt alles in sich was es braucht — Neugier, Kraft, den Wunsch zu wachsen. Es braucht keine Belehrung. Es braucht jemanden, der da ist. Der zuhört. Der vertraut.</p>
-        <p>Und wir glauben: Eltern geben jeden Tag mehr als genug. Auch wenn es sich manchmal nicht so anfühlt. Auch wenn der Tag anstrengend war. Auch wenn nicht alles nach Plan lief.</p>
+        <p class="section-eyebrow" data-i18n="philosophy_eyebrow">Unsere Überzeugung</p>
+        <h2 id="philosophie-heading" data-i18n="philosophy_title">Kinder kommen nicht falsch auf die Welt. Und Eltern auch nicht.</h2>
+        <p data-i18n="philosophy_body_one">Wir glauben: Jedes Kind trägt alles in sich was es braucht — Neugier, Kraft, den Wunsch zu wachsen. Es braucht keine Belehrung. Es braucht jemanden, der da ist. Der zuhört. Der vertraut.</p>
+        <p data-i18n="philosophy_body_two">Und wir glauben: Eltern geben jeden Tag mehr als genug. Auch wenn es sich manchmal nicht so anfühlt. Auch wenn der Tag anstrengend war. Auch wenn nicht alles nach Plan lief.</p>
 
-        <h3 class="philosophie-approach-title">Unser Ansatz</h3>
-        <p>Parentpeak verbindet das Beste aus Pädagogik und Hirnforschung — nicht als Theorie, sondern als echte Hilfe für den Alltag:</p>
+        <h3 class="philosophie-approach-title" data-i18n="philosophy_approach">Unser Ansatz</h3>
+        <p data-i18n="philosophy_approach_desc">Parentpeak verbindet das Beste aus Pädagogik und Hirnforschung — nicht als Theorie, sondern als echte Hilfe für den Alltag:</p>
 
         <div class="philosophie-values">
           <div class="value-item">
             <span aria-hidden="true">💚</span>
             <div>
-              <strong>Gewaltfreie Kommunikation</strong>
-              <p>Bedürfnisse sehen statt Verhalten bewerten (Rosenberg)</p>
+              <strong data-i18n="value_nvc_title">Gewaltfreie Kommunikation</strong>
+              <p data-i18n="value_nvc_desc">Bedürfnisse sehen statt Verhalten bewerten (Rosenberg)</p>
             </div>
           </div>
           <div class="value-item">
             <span aria-hidden="true">🧠</span>
             <div>
-              <strong>Neurobiologie</strong>
-              <p>Verbundenheit und Autonomie als Grundnahrung der Seele (Hüther)</p>
+              <strong data-i18n="value_neuro_title">Neurobiologie</strong>
+              <p data-i18n="value_neuro_desc">Verbundenheit und Autonomie als Grundnahrung der Seele (Hüther)</p>
             </div>
           </div>
           <div class="value-item">
             <span aria-hidden="true">🌱</span>
             <div>
-              <strong>Montessori</strong>
-              <p>"Hilf mir, es selbst zu tun"</p>
+              <strong data-i18n="value_montessori_title">Montessori</strong>
+              <p data-i18n="value_montessori_desc">"Hilf mir, es selbst zu tun"</p>
             </div>
           </div>
           <div class="value-item">
             <span aria-hidden="true">🎨</span>
             <div>
-              <strong>Reggio-Pädagogik</strong>
-              <p>Das Kind hat hundert Sprachen, hundert Welten</p>
+              <strong data-i18n="value_reggio_title">Reggio-Pädagogik</strong>
+              <p data-i18n="value_reggio_desc">Das Kind hat hundert Sprachen, hundert Welten</p>
             </div>
           </div>
           <div class="value-item">
             <span aria-hidden="true">✋</span>
             <div>
-              <strong>Freinet</strong>
-              <p>Lernen passiert im echten Leben, nicht im Lehrbuch</p>
+              <strong data-i18n="value_freinet_title">Freinet</strong>
+              <p data-i18n="value_freinet_desc">Lernen passiert im echten Leben, nicht im Lehrbuch</p>
             </div>
           </div>
           <div class="value-item">
             <span aria-hidden="true">🧸</span>
             <div>
-              <strong>Fröbel</strong>
-              <p>Spielen ist die höchste Form des Lernens</p>
+              <strong data-i18n="value_froebel_title">Fröbel</strong>
+              <p data-i18n="value_froebel_desc">Spielen ist die höchste Form des Lernens</p>
             </div>
           </div>
           <div class="value-item">
             <span aria-hidden="true">🏡</span>
             <div>
-              <strong>Situationsansatz</strong>
-              <p>Vom Kind ausgehen, nicht vom Lehrplan</p>
+              <strong data-i18n="value_situation_title">Situationsansatz</strong>
+              <p data-i18n="value_situation_desc">Vom Kind ausgehen, nicht vom Lehrplan</p>
             </div>
           </div>
           <div class="value-item">
             <span aria-hidden="true">❤️</span>
             <div>
-              <strong>Jesper Juul</strong>
-              <p>Gleichwürdigkeit, Authentizität, Führung mit Herz</p>
+              <strong data-i18n="value_juul_title">Jesper Juul</strong>
+              <p data-i18n="value_juul_desc">Gleichwürdigkeit, Authentizität, Führung mit Herz</p>
             </div>
           </div>
         </div>
 
         <div class="philosophie-summary-box">
-          <p class="philosophie-summary-box__title">Was alle verbindet:</p>
-          <p class="philosophie-summary-box__body">Beziehung vor Erziehung.<br>Vertrauen statt Kontrolle.<br>Dasein statt Perfektsein.</p>
-          <p class="philosophie-summary-box__footer">Ohne Bewertung. Ohne Druck. Ohne Verurteilung.<br>Für Eltern die alles geben — und selbst Halt brauchen.</p>
+          <p class="philosophie-summary-box__title" data-i18n="philosophy_summary_title">Was alle verbindet:</p>
+          <p class="philosophie-summary-box__body" data-i18n="philosophy_summary_body">Beziehung vor Erziehung.<br>Vertrauen statt Kontrolle.<br>Dasein statt Perfektsein.</p>
+          <p class="philosophie-summary-box__footer" data-i18n="philosophy_summary_footer">Ohne Bewertung. Ohne Druck. Ohne Verurteilung.<br>Für Eltern die alles geben — und selbst Halt brauchen.</p>
         </div>
       </div>
       <div class="philosophie-visual">
         <div class="quote-card">
-          <p>"Jede Woche ist ein Auf und Ab. Du bist durch diese Woche gegangen — mit allem, was dazugehört. Das reicht."</p>
-          <span>— Parentpeak Wochenrückblick</span>
+          <p data-i18n="philosophy_quote">"Jede Woche ist ein Auf und Ab. Du bist durch diese Woche gegangen — mit allem, was dazugehört. Das reicht."</p>
+          <span data-i18n="philosophy_quote_attribution">— Parentpeak Wochenrückblick</span>
         </div>
       </div>
     </div>
@@ -341,32 +375,32 @@
   <!-- Testimonials -->
   <section id="testimonials" class="testimonials" aria-labelledby="testimonials-heading">
     <div class="container">
-      <p class="section-eyebrow">Stimmen aus der Praxis</p>
-      <h2 class="section-title" id="testimonials-heading">Von Eltern, für Eltern</h2>
-      <p class="section-sub">Echtes Feedback von Familien die Parentpeak im Alltag nutzen.</p>
+      <p class="section-eyebrow" data-i18n="testimonials_eyebrow">Stimmen aus der Praxis</p>
+      <h2 class="section-title" id="testimonials-heading" data-i18n="testimonials_title">Von Eltern, für Eltern</h2>
+      <p class="section-sub" data-i18n="testimonials_sub">Echtes Feedback von Familien die Parentpeak im Alltag nutzen.</p>
       <div class="testimonials-grid" role="list">
         <div class="testimonial-card" data-anim role="listitem">
-          <div class="testimonial-badge">Elternstimme</div>
-          <blockquote class="testimonial-text">"Die KI-Elternberatung ist genau das was ich gebraucht habe. Endlich Tipps die nicht belehren, sondern wirklich helfen."</blockquote>
+          <div class="testimonial-badge" data-i18n="testimonial_badge">Elternstimme</div>
+          <blockquote class="testimonial-text" data-i18n="testimonial_one">"Die KI-Elternberatung ist genau das was ich gebraucht habe. Endlich Tipps die nicht belehren, sondern wirklich helfen."</blockquote>
           <div class="testimonial-author">
-            <span class="testimonial-name">— Nutzerin</span>
-            <span class="testimonial-role">Mama von 2 Kindern</span>
+            <span class="testimonial-name" data-i18n="testimonial_one_name">— Nutzerin</span>
+            <span class="testimonial-role" data-i18n="testimonial_one_role">Mama von 2 Kindern</span>
           </div>
         </div>
         <div class="testimonial-card" data-anim role="listitem">
-          <div class="testimonial-badge">Elternstimme</div>
-          <blockquote class="testimonial-text">"Der Familienkalender hat uns als Familie so viel Zeit gespart. Alle sind auf dem gleichen Stand, keine Diskussionen mehr."</blockquote>
+          <div class="testimonial-badge" data-i18n="testimonial_badge">Elternstimme</div>
+          <blockquote class="testimonial-text" data-i18n="testimonial_two">"Der Familienkalender hat uns als Familie so viel Zeit gespart. Alle sind auf dem gleichen Stand, keine Diskussionen mehr."</blockquote>
           <div class="testimonial-author">
-            <span class="testimonial-name">— Nutzer</span>
-            <span class="testimonial-role">Papa von 3 Kindern</span>
+            <span class="testimonial-name" data-i18n="testimonial_two_name">— Nutzer</span>
+            <span class="testimonial-role" data-i18n="testimonial_two_role">Papa von 3 Kindern</span>
           </div>
         </div>
         <div class="testimonial-card" data-anim role="listitem">
-          <div class="testimonial-badge">Elternstimme</div>
-          <blockquote class="testimonial-text">"Die Rezept-Funktion ist genial. 'Was kochen wir?' war jeden Abend Stress. Jetzt kriege ich Vorschläge die meine Kinder wirklich essen."</blockquote>
+          <div class="testimonial-badge" data-i18n="testimonial_badge">Elternstimme</div>
+          <blockquote class="testimonial-text" data-i18n="testimonial_three">"Die Rezept-Funktion ist genial. 'Was kochen wir?' war jeden Abend Stress. Jetzt kriege ich Vorschläge die meine Kinder wirklich essen."</blockquote>
           <div class="testimonial-author">
-            <span class="testimonial-name">— Nutzerin</span>
-            <span class="testimonial-role">Mama von 1 Kind</span>
+            <span class="testimonial-name" data-i18n="testimonial_three_name">— Nutzerin</span>
+            <span class="testimonial-role" data-i18n="testimonial_three_role">Mama von 1 Kind</span>
           </div>
         </div>
       </div>
@@ -376,28 +410,28 @@
   <!-- Sicherheit -->
   <section id="sicherheit" class="sicherheit" aria-labelledby="sicherheit-heading">
     <div class="container">
-      <p class="section-eyebrow">Vertrauen vor Wachstum</p>
-      <h2 class="section-title" id="sicherheit-heading">Familiendaten brauchen klare Grenzen.</h2>
+      <p class="section-eyebrow" data-i18n="security_eyebrow">Vertrauen vor Wachstum</p>
+      <h2 class="section-title" id="sicherheit-heading" data-i18n="security_title">Familiendaten brauchen klare Grenzen.</h2>
       <div class="sicherheit-grid" role="list">
         <div class="sicherheit-item" data-anim role="listitem">
           <div class="sicherheit-icon" aria-hidden="true">🛡️</div>
-          <strong>Datenschutz im Fokus</strong>
-          <p>Privacy by Design. So wenig Daten wie möglich.</p>
+          <strong data-i18n="security_privacy_title">Datenschutz im Fokus</strong>
+          <p data-i18n="security_privacy_desc">Privacy by Design. So wenig Daten wie möglich.</p>
         </div>
         <div class="sicherheit-item" data-anim role="listitem">
           <div class="sicherheit-icon" aria-hidden="true">🚫</div>
-          <strong>Kein Tracking</strong>
-          <p>Keine Werbeprofile. Kein Verkauf an Dritte. Premium = werbefrei.</p>
+          <strong data-i18n="security_tracking_title">Kein Tracking</strong>
+          <p data-i18n="security_tracking_desc">Keine Werbeprofile. Kein Verkauf an Dritte. Premium = werbefrei.</p>
         </div>
         <div class="sicherheit-item" data-anim role="listitem">
           <div class="sicherheit-icon" aria-hidden="true">🤖</div>
-          <strong>KI transparent</strong>
-          <p>Wo KI eingesetzt wird, zeigen wir es. KI-Antworten ersetzen keine Fachberatung.</p>
+          <strong data-i18n="security_ai_title">KI transparent</strong>
+          <p data-i18n="security_ai_desc">Wo KI eingesetzt wird, zeigen wir es. KI-Antworten ersetzen keine Fachberatung.</p>
         </div>
         <div class="sicherheit-item" data-anim role="listitem">
           <div class="sicherheit-icon" aria-hidden="true">🇩🇪</div>
-          <strong>Made in Germany</strong>
-          <p>Entwickelt in Deutschland. Für Familien weltweit.</p>
+          <strong data-i18n="security_origin_title">Made in Germany</strong>
+          <p data-i18n="security_origin_desc">Entwickelt in Deutschland. Für Familien weltweit.</p>
         </div>
       </div>
     </div>
@@ -406,86 +440,86 @@
   <!-- Pricing -->
   <section id="pricing" class="pricing" aria-labelledby="pricing-heading">
     <div class="container">
-      <p class="section-eyebrow">Transparent und fair</p>
-      <h2 class="section-title" id="pricing-heading">Kostenlos starten. Premium wenn du mehr willst.</h2>
-      <p class="section-sub">Parentpeak bleibt immer nutzbar ohne zu zahlen. Premium ist für Eltern die das volle Erlebnis wollen.</p>
+      <p class="section-eyebrow" data-i18n="pricing_eyebrow">Transparent und fair</p>
+      <h2 class="section-title" id="pricing-heading" data-i18n="pricing_title">Kostenlos starten. Premium wenn du mehr willst.</h2>
+      <p class="section-sub" data-i18n="pricing_sub">Parentpeak bleibt immer nutzbar ohne zu zahlen. Premium ist für Eltern die das volle Erlebnis wollen.</p>
       <div class="pricing-grid" role="list">
         <div class="pricing-card" data-anim role="listitem">
           <div class="pricing-header">
             <h3>Free</h3>
             <div class="pricing-price">0 €</div>
-            <p class="pricing-period">Für immer kostenlos</p>
+            <p class="pricing-period" data-i18n="free_period">Für immer kostenlos</p>
           </div>
           <ul class="pricing-features">
-            <li>✅ 3 Events pro Woche entdecken</li>
-            <li>✅ Verschenkmarkt unbegrenzt</li>
-            <li>✅ KI-Beratung (3 Fragen/Tag)</li>
-            <li>✅ Familienkalender</li>
-            <li>✅ Familien-Community (3 Kontakte/Monat)</li>
-            <li>✅ Familien-Geld Übersicht</li>
-            <li>✅ 1 Rezept pro Tag</li>
+            <li data-i18n="free_feature_events">✅ 3 Events pro Woche entdecken</li>
+            <li data-i18n="free_feature_giveaway">✅ Verschenkmarkt unbegrenzt</li>
+            <li data-i18n="free_feature_advice">✅ KI-Beratung (3 Fragen/Tag)</li>
+            <li data-i18n="free_feature_calendar">✅ Familienkalender</li>
+            <li data-i18n="free_feature_community">✅ Familien-Community (3 Kontakte/Monat)</li>
+            <li data-i18n="free_feature_benefits">✅ Familien-Geld Übersicht</li>
+            <li data-i18n="free_feature_recipe">✅ 1 Rezept pro Tag</li>
           </ul>
-          <a href="#installieren" class="button button-ghost">Beta-Tester werden</a>
+          <a href="#installieren" class="button button-ghost" data-i18n="cta_beta">Beta-Tester werden</a>
         </div>
         <div class="pricing-card pricing-card--premium" data-anim role="listitem">
-          <div class="pricing-badge">Beliebt</div>
+          <div class="pricing-badge" data-i18n="premium_popular">Beliebt</div>
           <div class="pricing-header">
             <h3>Premium</h3>
             <div class="pricing-price">3,99 €</div>
-            <p class="pricing-period">pro Monat &middot; oder 34,99 €/Jahr</p>
+            <p class="pricing-period" data-i18n="premium_period">pro Monat &middot; oder 34,99 €/Jahr</p>
           </div>
           <ul class="pricing-features">
-            <li>✅ <strong>Alle Events unbegrenzt</strong></li>
-            <li>✅ <strong>Push-Alerts für neue Events</strong></li>
-            <li>✅ <strong>KI-Beratung unlimited</strong></li>
-            <li>✅ <strong>Rezepte unlimited + Mealplan</strong></li>
-            <li>✅ <strong>Familien-Community unbegrenzt + Radar</strong></li>
-            <li>✅ <strong>Familien-Geld: "Was steht MIR zu?"</strong></li>
-            <li>✅ <strong>Kalender-Sync (Apple/Google)</strong></li>
-            <li>✅ <strong>Komplett werbefrei</strong></li>
-            <li>✅ Alles aus Free inklusive</li>
+            <li data-i18n="premium_feature_events">✅ <strong>Alle Events unbegrenzt</strong></li>
+            <li data-i18n="premium_feature_alerts">✅ <strong>Push-Alerts für neue Events</strong></li>
+            <li data-i18n="premium_feature_advice">✅ <strong>KI-Beratung unlimited</strong></li>
+            <li data-i18n="premium_feature_recipes">✅ <strong>Rezepte unlimited + Mealplan</strong></li>
+            <li data-i18n="premium_feature_community">✅ <strong>Familien-Community unbegrenzt + Radar</strong></li>
+            <li data-i18n="premium_feature_benefits">✅ <strong>Familien-Geld: "Was steht MIR zu?"</strong></li>
+            <li data-i18n="premium_feature_sync">✅ <strong>Kalender-Sync (Apple/Google)</strong></li>
+            <li data-i18n="premium_feature_ads">✅ <strong>Komplett werbefrei</strong></li>
+            <li data-i18n="premium_feature_free_included">✅ Alles aus Free inklusive</li>
           </ul>
-          <a href="#installieren" class="button button-primary">Beta-Tester werden</a>
+          <a href="#installieren" class="button button-primary" data-i18n="cta_beta">Beta-Tester werden</a>
         </div>
       </div>
-      <p class="pricing-note">💚 Die Basis bleibt dauerhaft kostenlos. Premium kannst du jederzeit kündigen.</p>
+      <p class="pricing-note" data-i18n="pricing_note">💚 Die Basis bleibt dauerhaft kostenlos. Premium kannst du jederzeit kündigen.</p>
     </div>
   </section>
 
   <!-- Beta / Launch Section -->
   <section id="installieren" class="install-section" aria-labelledby="install-heading">
     <div class="container">
-      <p class="section-eyebrow">Sei von Anfang an dabei</p>
-      <h2 class="section-title" id="install-heading">Bald im App Store &amp; auf Google Play.</h2>
-      <p class="section-sub">Parentpeak startet gerade — und du kannst als eine:r der Ersten dabei sein. Wir suchen Test-Eltern für Android und iPhone. Alle Funktionen sind im Test kostenlos, dein Feedback macht die App besser.</p>
+      <p class="section-eyebrow" data-i18n="install_eyebrow">Sei von Anfang an dabei</p>
+      <h2 class="section-title" id="install-heading" data-i18n="install_title">Bald im App Store &amp; auf Google Play.</h2>
+      <p class="section-sub" data-i18n="install_sub">Parentpeak startet gerade — und du kannst als eine:r der Ersten dabei sein. Wir suchen Test-Eltern für Android und iPhone. Alle Funktionen sind im Test kostenlos, dein Feedback macht die App besser.</p>
       <div class="install-grid">
         <div class="install-card" data-anim>
           <div class="install-icon" aria-hidden="true">🤖</div>
           <h3>Android</h3>
           <ol class="install-steps">
-            <li>Schreib uns deine <strong>Gmail-Adresse</strong></li>
-            <li>Wir laden dich zum geschlossenen Test ein</li>
-            <li>Du installierst Parentpeak über Google Play</li>
-            <li>Fertig — du bist Beta-Tester:in!</li>
+            <li data-i18n="android_step_one">Schreib uns deine <strong>Gmail-Adresse</strong></li>
+            <li data-i18n="android_step_two">Wir laden dich zum geschlossenen Test ein</li>
+            <li data-i18n="android_step_three">Du installierst Parentpeak über Google Play</li>
+            <li data-i18n="android_step_four">Fertig — du bist Beta-Tester:in!</li>
           </ol>
         </div>
         <div class="install-card" data-anim>
           <div class="install-icon" aria-hidden="true">🍎</div>
           <h3>iPhone</h3>
           <ol class="install-steps">
-            <li>Schreib uns deine <strong>Apple-ID (E-Mail)</strong></li>
-            <li>Wir laden dich über TestFlight ein</li>
-            <li>Du installierst Parentpeak per TestFlight</li>
-            <li>Fertig — du bist Beta-Tester:in!</li>
+            <li data-i18n="iphone_step_one">Schreib uns deine <strong>Apple-ID (E-Mail)</strong></li>
+            <li data-i18n="iphone_step_two">Wir laden dich über TestFlight ein</li>
+            <li data-i18n="iphone_step_three">Du installierst Parentpeak per TestFlight</li>
+            <li data-i18n="iphone_step_four">Fertig — du bist Beta-Tester:in!</li>
           </ol>
         </div>
       </div>
       <div class="install-cta-row" style="text-align:center;margin-top:28px;">
-        <a href="mailto:support@parentpeak.com?subject=Ich%20m%C3%B6chte%20Beta-Tester%20werden&amp;body=Hallo%20Parentpeak-Team%2C%0A%0Aich%20m%C3%B6chte%20die%20App%20testen.%0APlattform%20(Android%2FiPhone)%3A%20%0AMeine%20E-Mail%20(Gmail%20f%C3%BCr%20Android%20%2F%20Apple-ID%20f%C3%BCr%20iPhone)%3A%20%0A%0ADanke%21" class="button button-primary">📩 Jetzt Beta-Zugang anfragen</a>
+        <a href="mailto:support@parentpeak.com?subject=Ich%20m%C3%B6chte%20Beta-Tester%20werden&amp;body=Hallo%20Parentpeak-Team%2C%0A%0Aich%20m%C3%B6chte%20die%20App%20testen.%0APlattform%20(Android%2FiPhone)%3A%20%0AMeine%20E-Mail%20(Gmail%20f%C3%BCr%20Android%20%2F%20Apple-ID%20f%C3%BCr%20iPhone)%3A%20%0A%0ADanke%21" class="button button-primary" data-i18n="install_cta">📩 Jetzt Beta-Zugang anfragen</a>
       </div>
       <div class="install-trust">
-        <p>🔒 Sicher: Verschlüsselte Verbindung (HTTPS) · Kein Zugriff auf deine Daten · Made in Germany</p>
-        <p style="margin-top:10px;font-size:0.85rem;opacity:0.75;">Lieber sofort im Browser reinschauen? <a href="https://parentpeak.de" target="_blank" rel="noopener">Web-Vorschau öffnen →</a></p>
+        <p data-i18n="install_security">🔒 Sicher: Verschlüsselte Verbindung (HTTPS) · Kein Zugriff auf deine Daten · Made in Germany</p>
+        <p style="margin-top:10px;font-size:0.85rem;opacity:0.75;"><span data-i18n="web_preview_prompt">Lieber sofort im Browser reinschauen?</span> <a href="https://parentpeak.de" target="_blank" rel="noopener" data-i18n="web_preview_link">Web-Vorschau öffnen →</a></p>
       </div>
     </div>
   </section>
@@ -493,9 +527,9 @@
   <!-- CTA -->
   <section class="final-cta" aria-labelledby="cta-heading">
     <div class="container final-cta-inner">
-      <h2 id="cta-heading">Bereit für mehr Ruhe im Familienalltag?</h2>
-      <p>Sei von Anfang an dabei. Alle Funktionen im Test kostenlos.</p>
-      <a href="#installieren" class="button button-light">Jetzt Beta-Tester werden</a>
+      <h2 id="cta-heading" data-i18n="final_title">Bereit für mehr Ruhe im Familienalltag?</h2>
+      <p data-i18n="final_sub">Sei von Anfang an dabei. Alle Funktionen im Test kostenlos.</p>
+      <a href="#installieren" class="button button-light" data-i18n="hero_cta">Jetzt Beta-Tester werden</a>
     </div>
   </section>
 
@@ -508,33 +542,33 @@
         <img src="assets/app-icon.png" alt="" width="40" height="40" aria-hidden="true">
         <div>
           <strong>Parentpeak</strong>
-          <p>Nicht perfekt sein müssen. Einfach da sein.</p>
+          <p data-i18n="footer_tagline">Nicht perfekt sein müssen. Einfach da sein.</p>
         </div>
       </div>
       <div class="footer-links">
         <div>
-          <h4>App</h4>
-          <a href="#installieren">Beta-Tester werden</a>
-          <a href="#features">Features</a>
-          <a href="#philosophie">Philosophie</a>
-          <a href="https://parentpeak.de" target="_blank" rel="noopener">Web-Vorschau</a>
+          <h4 data-i18n="footer_app_title">App</h4>
+          <a href="#installieren" data-i18n="cta_beta">Beta-Tester werden</a>
+          <a href="#features" data-i18n="nav_features">Features</a>
+          <a href="#philosophie" data-i18n="nav_philosophy">Philosophie</a>
+          <a href="https://parentpeak.de" target="_blank" rel="noopener" data-i18n="web_preview_link">Web-Vorschau</a>
         </div>
         <div>
-          <h4>Rechtliches</h4>
-          <a href="datenschutz.html">Datenschutz</a>
-          <a href="agb.html">AGB</a>
-          <a href="impressum.html">Impressum</a>
+          <h4 data-i18n="footer_legal_title">Rechtliches</h4>
+          <a href="datenschutz.html" data-i18n="footer_privacy">Datenschutz</a>
+          <a href="agb.html" data-i18n="footer_terms">AGB</a>
+          <a href="impressum.html" data-i18n="footer_imprint">Impressum</a>
         </div>
         <div>
-          <h4>Kontakt</h4>
+          <h4 data-i18n="footer_contact_title">Kontakt</h4>
           <a href="mailto:support@parentpeak.com">support@parentpeak.com</a>
-          <a href="https://instagram.com/parentpeak.app" target="_blank" rel="noopener">Instagram @parentpeak.app</a>
+          <a href="https://instagram.com/parentpeak.app" target="_blank" rel="noopener"><span data-i18n="footer_instagram">Instagram</span> @parentpeak.app</a>
         </div>
       </div>
     </div>
     <div class="container footer-bottom">
-      <p>&copy; 2026 Parentpeak · Fatih Bucak. Alle Rechte vorbehalten.</p>
-      <p class="footer-impressum">Fatih Bucak · Alexandrinenstraße 93, 10969 Berlin · <a href="mailto:support@parentpeak.com">support@parentpeak.com</a> · <a href="impressum.html">Impressum</a> · <a href="datenschutz.html">Datenschutz</a> · <a href="agb.html">AGB</a></p>
+      <p>&copy; 2026 Parentpeak · Fatih Bucak. <span data-i18n="footer_rights">Alle Rechte vorbehalten.</span></p>
+      <p class="footer-impressum">Fatih Bucak · Alexandrinenstraße 93, 10969 Berlin · <a href="mailto:support@parentpeak.com">support@parentpeak.com</a> · <a href="impressum.html" data-i18n="footer_imprint">Impressum</a> · <a href="datenschutz.html" data-i18n="footer_privacy">Datenschutz</a> · <a href="agb.html" data-i18n="footer_terms">AGB</a></p>
     </div>
   </footer>
 
